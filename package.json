@@ -1,7 +1,7 @@
 {
   "name": "hylia",
   "version": "0.5.1",
-  "description": "A simple Eleventy starter kit to help you have a blog of your own",
+  "description": "This is the home of Castaways - a community of podcasters helping each other out.",
   "main": "index.js",
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",

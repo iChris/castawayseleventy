@@ -1,58 +1,8 @@
-# A simple starter kit for Eleventy
+# This is the home of Castaways - a community of podcasters helping each other out.
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+The site is based on [Hylia](https://github.com/hankchizljaw/hylia). Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
-Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
-
-<img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
-
-## Features
-
-Hylia version 0.5.1 features:
-
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens to make it your own  
-🌍 Customisable global data and navigation  
-📂 Tags and tag archives  
-✅ Progressively enhanced, semantic and accessible  
-🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
-⚙️ Service worker that caches pages so people can read your articles offline  
-🚀 An RSS feed for your posts
-
-## Roadmap
-
-💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
-💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/hankchizljaw/hylia/releases/tag/0.4.0)  
-🗣 Webmentions  
-📖 Pagination  
-🐦 Web sharing API integration  
-🗒 Offline mode with links to cached pages  
-📄 Documentation site  
-💅 Proper Sass documentation  
-✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding  
-
----
-
-## Getting started
-
-### Method one: One-Click Deploy to Netlify
-
-You can [deploy Hylia to Netlify with one click][deploy-to-netlify] and you’ll be up and running in minutes!
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
-
-I recorded a quick start video of me deploying Hylia to Netlify and getting the CMS set up. [Check it out here](https://youtu.be/0hM_0BH-Y_A).
-
-### Method two: Clone / Fork
-
-1. Clone or fork this repo: `git clone https://github.com/hankchizljaw/hylia`
-2. `cd` into the project directory and run `npm install`
-3. Once all the dependencies are installed run `npm start`
-4. Open your browser at `http://localhost:8080` and away you go!
 
 ## Terminal commands
 
@@ -101,15 +51,9 @@ In short, though:
 
 Although Hylia has a pretty simple design, you can configure the core design tokens that control the colours, size ratio and fonts.
 
----
-
-**Note**: _Credit must be given to the hard work [Jina Anne](https://twitter.com/jina) did in order for the concept of design tokens to even exist. You should watch [this video](https://www.youtube.com/watch?v=wDBEc3dJJV8), then [read this article](https://the-pastry-box-project.net/jina-bolton/2015-march-28) and then sign up for [this course](https://aycl.uie.com/virtual_seminars/design_tokens_scaling_design_with_a_single_source_of_truth) to expand your knowledge._
-
----
-
 To change the design tokens in the CMS, find the “Globals” in the sidebar then in the presented options, select “Theme Settings”.
 
-To change the design tokens directly, edit [`_src/data/tokens.json`](https://github.com/hankchizljaw/hylia/blob/master/src/_data/tokens.json).
+To change the design tokens directly, edit `_src/data/tokens.json`
 
 The tokens are converted into maps that the Sass uses to compile the front-end CSS, so make sure that you maintain the correct structure of `tokens.json`.
 
@@ -117,7 +61,7 @@ The tokens are converted into maps that the Sass uses to compile the front-end C
 
 Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
 
-You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/hankchizljaw/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
+You can edit the Styleguide by opening `src/styleguide.njk`. If you don’t want the Styleguide, delete that file and the page will vanish.
 
 ## Sass
 
@@ -125,7 +69,7 @@ Hylia is based on the [WIP v2 version of Stalfos](https://github.com/hankchizlja
 
 ### Configuration
 
-The whole Sass system is powered by central config file, which lives here: [`_src/scss/_config.scss`](https://github.com/hankchizljaw/hylia/blob/master/src/scss/_config.scss).
+The whole Sass system is powered by central config file, which lives here: `_src/scss/_config.scss`.
 
 Before Sass is compiled, a `_tokens.scss` file is generated from the [design tokens config](https://github.com/hankchizljaw/hylia/blob/master/src/_data/tokens.json) which is required.
 

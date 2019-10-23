@@ -1,10 +1,21 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
+title: Welcome to Castaways Club.
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
 ---
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+Castaways Club is a community of podcasters helping each other out.
+
+## Joining Castaways
+
+Membership is handled through Patreon - visit [Patreon.com/goodstuff](https://www.patreon.com/goodstuff) to sign up now.
+
+## Listen to the Castaways Club Podcast
+
+Of course there's a [podcast](https://podcast.castaways.club/)! You can find all the ways [to subscribe here](https://podcast.castaways.club/subscribe).
+
+### Want to keep up to date on what's happening?
+
+You can sign up for [the mailing list](https://mailchi.mp/ad73a5bdfab5/podcasting) or follow along on [Twitter](https://twitter.com/ClubCastaways).
