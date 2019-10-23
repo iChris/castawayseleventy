@@ -6,13 +6,23 @@
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "text": "Blog",
+      "url": "/archive",
+      "external": false
+    },
+    {
+      "text": "Patreon",
+      "url": "https://www.patreon.com/goodstuff",
+      "external": true
+    },
+    {
+      "text": "Podcast",
+      "url": "https://podcast.castaways.club",
       "external": true
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/hankchizljaw",
+      "url": "https://twitter.com/ClubCastaways",
       "external": true
     }
   ]
